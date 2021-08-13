@@ -1,0 +1,176 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px 1px 2px gray;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+
+
+p {
+  text-align: center;
+  text-decoration: unset;
+  text-transform: capitalize;
+  text-indent: 50px;
+}
+
+.colores {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+
+#cyan {
+  background-color: cyan;
+}
+
+/*Colores*/
+
+#rgb1 {
+  background-color: rgb(255, 0, 0);
+}
+
+#rgb2 {
+  background-color: rgb(0, 255, 0);
+}
+
+#rgb3 {
+  background-color: rgb(0, 0, 255);
+}
+
+#rgb4 {
+  background-color: rgb(255, 255, 255);
+}
+#rgb5 {
+  background-color: rgb(0, 0, 0);
+}
+
+/*Hexadecimal*/
+
+#hexa1 {
+  background-color: #ff0000;
+}
+
+#hexa2 {
+  background-color: #00ff00;
+}
+
+#hexa3 {
+  background-color: #0000ff;
+}
+
+#hexa4 {
+  background-color: #ffffff;
+}
+
+#hsl5 {
+  background-color: #000000;
+}
+
+/*HSL*/
+
+#hsl1 {
+    background-color: hsl(0, 100%, 50%);
+  }
+
+  #hsl2 {
+    background-color: hsl(120, 100%, 50%);
+  }
+
+  #hsl3 {
+    background-color: hsl(240, 100%, 50%);
+  }
+
+  #hsl4 {
+    background-color: hsl(360, 100%, 100%);
+  }
+
+  #hsl5 {
+    background-color: hsl(240, 100%, 0%);
+  }
+
+/*RGBA*/
+
+#rgba1{
+    background-color: rgba(255, 0, 0, 1);
+}
+#rgba2{
+    background-color: rgba(0, 255, 0, 1);
+}
+#rgba3{
+    background-color: rgba(0, 0, 255, 1);
+}
+#rgba4{
+    background-color: rgba(255, 255, 255, 1);
+}
+#rgba5{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/*HSlA*/
+
+#hsla1 {
+    background-color: hsla(0, 100%, 50%, 1);
+  }
+ 
+  #hsla2 {
+    background-color: hsla(120, 100%, 50%, 1);
+  }
+ 
+  #hsla3 {
+    background-color: hsla(240, 100%, 50%, 1);
+  }
+ 
+  #hsla4 {
+    background-color: hsla(360, 100%, 100%, 1);
+  }
+ 
+  #hsla5 {
+    background-color: hsla(240, 100%, 0%,1);
+  } 
+
+/*Hexadecimal A*/
+
+#hexaa1 {
+    background-color: #ff0000,1;
+  }
+  
+  #hexaa2 {
+    background-color: #00ff00,1;
+  }
+  
+  #hexaa3 {
+    background-color: #0000ff,1;
+  }
+  
+  #hexaa4 {
+    background-color: #ffffff,1;
+  }
+  
+  #hexaa5 {
+    background-color: #000000, 1;
+  }
+
+/* Width y height*/
+
+#wh{
+    background-color: maroon;
+    width: 50%;
+    height: 50px;
+}
+
+#whhijo{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+

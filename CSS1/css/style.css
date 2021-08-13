@@ -1,0 +1,59 @@
+/* Selector Unversal*/
+*{
+        margin: 0; 
+        color: black;
+        font-family: Helvetica, Arial, sans-serif;
+}
+/* Selector por etiqueta*/
+h1{
+        color:aqua;
+        background-color: blue;
+        text-align: center;
+}
+h2{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        text-transform: capitalize;
+        text-align: center;
+}
+
+p{
+        color: cornflowerblue;
+        background-color: darkcyan;
+}
+
+/* Selector por ID*/
+#parrafo2 {
+        color: darkslategray;
+        background-color: lightseagreen;
+}
+
+/* Selector por Class*/
+.parrafo {
+        color: navajowhite;
+        background-color: navy;
+}
+.algo {
+        color: orange;
+}
+
+
+
+#sec1{
+        color:blue;
+        background-color: brown;
+}
+
+#ptext{
+        text-align: center;
+        font-size: 25px;
+        text-decoration: underline;
+}
+
+a{
+        font-size: 25px;
+        text-align: center;
+        text-decoration: underline;
+}
