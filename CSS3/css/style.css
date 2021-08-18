@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    font-family: Helvetica;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    width: 201px;
+    height: 325px;
+    background-color: cornflowerblue;
+    color: cyan;
+
+    /*Border*/
+    /*border: 10px dashed  darkturquoise;*/
+    /*border: 10px datted  darkturquoise;*/
+    /*border: 10px solid  darkturquoise;*/
+    /*border: 10px double  darkturquoise;*/
+    /*border: 10px groove  darkturquoise;*/
+    /*border: 10px ridge  darkturquoise;*/
+    /*border: 10px inset  darkturquoise;*/
+    /*border: 10px outset  darkturquoise;*/
+    border: 10px groove  darkturquoise;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*padding*/
+    padding: 10px;
+}
+
+#section2{
+    width: 100px;
+    height: 100px;
+
+    box-sizing: border-box;
+
+    background-color: dodgerblue;
+    border-left-color: cornflowerblue;
+    border-left-width: 5px;
+    border-left-style: double;
+    border-bottom-color: crimson;
+    border-bottom-width: 15px;
+    border-bottom-style: outset;
+    border-top-color: violet;
+    border-top-width: 25px;
+    border-top-style: ridge;
+    border-right-color: green;
+    border-right-width: 30px;
+    border-right-style: groove;
+}
+#section3{
+    border: 1px hidden gray;
+    width: 200px;
+    height: 160px;
+    border-radius: 10% 0 10% 0;
+}
+
+#section4{
+    border-left: 2px dashed darkviolet;
+    border-right: 2px dashed darkviolet;
+    border-top: 2px dashed darkviolet;
+    border-bottom: 2px dashed darkviolet;
+    /*pading: 10px 20px 30px 40px;*/
+    /*padding: 80px 5px;*/
+    padding: 50px 20px 80px;
+}
+
+#section5{
+    /*margin: 10px 20px 30px 40px;*/
+    /*margin: 50px 20px;*/
+    /*margin: 50px 20px 30px;*/
+    margin: 0 auto;
+}
