@@ -1,0 +1,82 @@
+img {
+    width: 100%;
+}
+
+ul{
+    list-style: circle;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+li{
+    border: 2px solid #000000;
+    list-style-type: none;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+a{
+    background-color: #f0ff00;
+    padding: 10px;
+    margin: 40px;
+    color: coral;
+}
+
+a:link{
+    color: coral;
+} 
+
+a:visited{
+    color: cornflowerblue;
+    background-color: crimson;
+}
+
+a:hover{
+    color: #ff0000;
+}
+
+a:active{
+    color: darkgreen;
+}
+
+a:focus{
+    border: 5px solid darkmagenta ;
+}
+
+
+#div1 {
+    width: 100%;
+    height: 100px;
+    background-color: #0000ff;
+    background-image: url(../img/imegen.jpg);
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#div2 > img {
+    width: 100%;
+    height: 100px;
+}
+
+#div3 {
+    width: 300px;
+    height: 100px;
+    background: #ff0000;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 43, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%);
+}
